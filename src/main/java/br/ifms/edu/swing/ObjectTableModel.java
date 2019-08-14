@@ -76,4 +76,8 @@ public class ObjectTableModel extends AbstractTableModel {
     public Class<?> getColumnClass(int columnIndex) {
         return String.class;
     }
+    
+    public Object getObject(int index){
+        return lista.get(index);
+    }
 }
