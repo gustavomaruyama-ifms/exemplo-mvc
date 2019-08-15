@@ -5,10 +5,18 @@
  */
 package br.ifms.edu.app;
 
+import br.ifms.edu.datamodel.Contato;
+
 /**
  *
  * @author gustavo
  */
 public class Main {
-    
+    public static void main(String[] args) {
+       ContatoView view = new ContatoView();
+       ContatoModel model = new ContatoModel();
+       ContatoController controller = new ContatoController(model, view);
+       
+       view.setVisible(true);
+    }
 }
