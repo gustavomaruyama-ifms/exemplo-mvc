@@ -6,7 +6,7 @@
 package br.ifms.edu.app;
 
 import br.ifms.edu.datamodel.Contato;
-import br.ifms.edu.swing.ObjectTableModel;
+import maruyama.components.swing.ObjectTableModel;
 
 /**
  *
@@ -26,7 +26,7 @@ public class ContatoController {
     }
 
     public void inicializarTabela() {
-        tableModel = new ObjectTableModel(Contato.class, model.getContatos(), "nome", "telefone", "email");
+        tableModel = new ObjectTableModel(Contato.class, model.getContatos(),"nome", "telefone", "email");
         view.getTabela().setModel(tableModel);
     }
 
@@ -35,7 +35,7 @@ public class ContatoController {
             model.novo();
             view.getCampoEmail().setText("");
             view.getCampoNome().setText("");
-            view.getCampoEmail().setText("");
+            view.getCampoTelefone().setText("");
         });
 
         view.getBotaoSalvar().addActionListener((e) -> {

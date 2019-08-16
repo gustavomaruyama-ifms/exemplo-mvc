@@ -5,8 +5,6 @@
  */
 package br.ifms.edu.app;
 
-import br.ifms.edu.datamodel.Contato;
-
 /**
  *
  * @author gustavo

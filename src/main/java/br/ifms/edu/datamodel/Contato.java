@@ -1,6 +1,6 @@
 package br.ifms.edu.datamodel;
 
-import br.ifms.edu.swing.Tabela;
+import maruyama.components.annotations.Tabela;
 
 /**
  *
