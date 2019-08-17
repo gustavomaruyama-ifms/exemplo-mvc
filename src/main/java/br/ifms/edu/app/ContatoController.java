@@ -14,8 +14,8 @@ import maruyama.components.swing.ObjectTableModel;
  */
 public class ContatoController {
 
-    private static final String EDITANDO = "EDITAR";
-    private static final String INICIAL = "INICIO";
+    private static final String EDITANDO = "EDITANDO";
+    private static final String INICIAL = "INICIAL";
     private static final String OBJETO_SELECIONADO = "OBJETO_SELECIONADO";
 
     private ContatoModel model;
