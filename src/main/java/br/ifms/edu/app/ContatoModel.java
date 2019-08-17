@@ -36,6 +36,7 @@ public class ContatoModel {
             return;
         }
         contatos.remove(contato);
+        contato = null;
     }
 
     public Contato getContato() {
